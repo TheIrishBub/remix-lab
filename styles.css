@@ -1,0 +1,87 @@
+* {
+  font-family: verdana;
+  font-size: 12pt;
+}
+
+.dropbtn {
+
+  border: none;
+  cursor: pointer;
+}
+
+.about {
+  position: relative;
+  display: inline-block;
+}
+
+.about-links {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.about-links a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.about-links a:hover {background-color: #f1f1f1;}
+.about:hover .about-links {display: block;}
+.links {
+  display: flex;
+  justify-content: center;
+
+}
+
+.cposc {
+  display: flex;
+  justify-content: center;
+  font-size: 50pt;
+}
+
+.schedule, .info, .talks, .tickets, .about {
+  padding: 10px;
+}
+
+.why-cposc {
+  display: flex;
+  flex-direction: row;
+}
+
+.why, .DL, .what {
+  padding: 10px;
+}
+
+.why h2, .DL h2, .what h2 {
+  font-size: 18pt;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.background > p {
+    color: #fff;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.when-where {
+  display: flex;
+  flex-flow: row;
+}
+
+.when-1, .where-1 {
+  padding: 20px;
+}
